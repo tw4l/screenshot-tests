@@ -2,6 +2,8 @@
   "dependencies": {
     "del": "^7.0.0",
     "playwright": "^1.27.1",
-    "puppeteer": "^19.2.2"
+    "puppeteer": "^19.2.2",
+    "puppeteer-cluster": "^0.23.0",
+    "uuid": "^9.0.0"
   }
 }
