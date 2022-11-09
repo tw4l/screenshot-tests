@@ -4,7 +4,7 @@ const {v4 : uuidv4} = require('uuid');
 
 (async () => {
   const cluster = await Cluster.launch({
-    concurrency: Cluster.CONCURRENCY_CONTEXT,
+    concurrency: Cluster.CONCURRENCY_PAGE,
     maxConcurrency: 4,
   });
 
